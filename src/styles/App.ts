@@ -1,7 +1,5 @@
 import styled, { keyframes } from "styled-components"
 
-import zombies from "/src/assets/zombies.gif"
-
 const animate = keyframes`
   20%,80%{
     transform: translateY(0) scale(1);
@@ -71,7 +69,7 @@ export const Container = styled.main`
 `
 
 export const Text = styled.h1`
-  background-image:  url("./src/assets/zombies.gif");
+  background-image:  url("/zombies.gif");
   background-position: center;
   background-size: 100%;
   background-clip: text;

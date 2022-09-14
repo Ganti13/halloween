@@ -54,7 +54,7 @@ export const LogoIcon = styled.div`
   height: 50px;
   width: 65px;
   border-radius: 35%;
-  background-image: url("/src/assets/logo.gif"); 
+  background-image: url("/logo.gif"); 
   background-size: 200%;
   background-position: center;
   position: relative;
@@ -65,7 +65,7 @@ export const LogoIcon = styled.div`
     position: absolute;
     width: 400px;
     height: 420px;
-    background: url("/src/assets/img/teiaranha.png") no-repeat;
+    background: url("/teiaranha.png") no-repeat;
     transform: translate(-50px,-60px);
   }
 `
